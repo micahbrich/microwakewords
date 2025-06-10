@@ -2,9 +2,12 @@
   "type": "micro",
   "wake_word": "hey friday",
   "author": "NathanCu@community.home-assistant.io",
-  "website": "https://github.com/JohnnyPrimus/Custom_V2_MicroWakeWords",
+  "website": "https://github.com/micahbrich/microwakewords",
   "model": "hey_friday.tflite",
   "version": 2,
+  "trained_languages": [
+    "en"
+  ],
   "micro": {
     "probability_cutoff": 0.66,
     "sliding_window_average_size": 10,
